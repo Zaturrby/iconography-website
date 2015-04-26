@@ -1,0 +1,9 @@
+body {
+	background: black;
+}
+
+.test {
+	background: url(../assets/manualtracetest.svg);
+	height: 100px;
+	width: 100px;
+}

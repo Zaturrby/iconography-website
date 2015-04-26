@@ -1,12 +1,8 @@
 import React from 'react';
-// import inlineSVG from '../node_modules/react-inlinesvg/lib/index.js';
 
-// var inlineSVG = require('../node_modules/react-inlinesvg/lib/index.js');
+import ImageWidget from './image-widget.jsx';
 
-// import ImageWidget from './image-widget.jsx';
-
-var inlineSVG = require('./image-widget.jsx');
-
+import css from './styles/main.css';
 
 class Site extends React.Component {
   constructor(props){
@@ -22,7 +18,7 @@ class Site extends React.Component {
   		<main className="site">
   		  <h1> Site </h1>
         <ImageWidget />
-        <inlineSVG src="./assets/manualtracetest.svg"/>
+        <div className="test" src="./assets/Facebook.png" />
    		</main>
   	)
   }
